@@ -1,0 +1,12 @@
+{
+  "name": "single-freq",
+  "version": "0.0.1",
+  "main": "",
+  "scripts": {
+    "start": "cd electron && electron ../main.js",
+    "package": "electron-packager ./app singleFreq --platform=win32 --arch=x64 --version=1.2.1 --overwrite --download.cache=/electron/electron"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.3"
+  }
+}

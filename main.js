@@ -2,9 +2,6 @@
 
 'use strict';
 
-// require('.js/jquery-2.1.1.min.js');
-// require('.js/index.js');
-
 var app = require('electron').app;
 var BrowserWindow = require('electron').BrowserWindow;
 
@@ -28,7 +25,7 @@ app.on('ready', function() {
   mainWindow = new BrowserWindow({width: 800, height: 600});
 
   // 加载应用的 index.html
-  mainWindow.loadURL('file://' + __dirname + '/index.html');
+  mainWindow.loadURL('file://' + __dirname + '/app/index.html');
 
   // 打开开发工具
   mainWindow.openDevTools();
