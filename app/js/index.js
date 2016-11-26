@@ -5,15 +5,11 @@ $(function(){
 	var PI = Math.PI;
 
 	var video = $('#video')[0];
-	// $('video').attr({
-	// 	'width': W,
-	// 	'height': H
-	// })
 
     var canvas = $('#canvas')[0];
     var ctxView = canvas.getContext('2d');
     canvas.width = W;
-    canvas.height = H;
+    canvas.heght = H;
 
     var camera = $('#camera')[0];
     var ctxCamera = camera.getContext('2d');
